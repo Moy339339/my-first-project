@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>周禄鼠你</title>
+    <meta charset="UTF-8">
+    <title>居居最帅</title>
 </head>
 <body>
-  <h1>周禄鼠你</h1>
-  <button id="colorBtn">换色</button>
-
-  <script>
-    function changeColor() {
-      const colors = ['#fce4ec', '#e1f5fe', '#fff59d', '#8e8f5e', '#ded7f6'];
-      document.body.style.backgroundColor =
-        colors[Math.floor(Math.random() * colors.length)];
-    }
-
-    document.getElementById('colorBtn').addEventListener('click', changeColor);
-  </script>
+    <h1>居居最帅</h1>
+    <button id="colorBtn">换色</button>
+    <script>
+        function changeColor() {
+            const colors = ['#fce4ec', '#e1f5fe', '#fff3e0', '#e8f5e9', '#ede7f6'];
+            document.body.style.backgroundColor =
+                colors[Math.floor(Math.random() * colors.length)];
+        }
+        document.getElementById('colorBtn').addEventListener('click', changeColor);
+    </script>
 </body>
 </html>
