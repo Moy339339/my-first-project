@@ -6,5 +6,14 @@
 </head>
 <body>
     <h1>居居最帅</h1>
+    <button id="colorBtn">换色</button>
+    <script>
+        function changeColor() {
+            const colors = ['#fce4ec', '#e1f5fe', '#fff3e0', '#e8f5e9', '#ede7f6'];
+            document.body.style.backgroundColor =
+                colors[Math.floor(Math.random() * colors.length)];
+        }
+        document.getElementById('colorBtn').addEventListener('click', changeColor);
+    </script>
 </body>
 </html>
